@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*
+
+Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
+----------------------------------------------------------------
+
+- Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+- Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+- Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+- Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...}
+
+- Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...}
+
+*/
+
+
+@media only screen and (max-width: 768px) {
+    /* TABLET */
+    
+    .cabecalho {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    
+    .cabecalho-imagem {
+        height: 72px;
+        margin-bottom: 14px;
+    }
+     
+    .cabecalho-menu-item {
+        padding: 20px 0px;
+    }
+
+    .conteudo {
+        margin-bottom: 48px;
+        border-top: 0.4px solid #FFF2E7;
+    }
+    
+    .conteudo-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .conteudo-principal-escrito {
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .conteudo-principal-escrito-titulo {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .conteudo-principal-escrito-botao {
+        width: 140px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .conteudo-principal-imagem {
+        height: 380px;
+    }
+
+    .conteudo-secundario-paragrafo {
+        font-size: 16px;
+    }
+
+    .rodape-imagem {
+        height: 32px;
+    }
+}
