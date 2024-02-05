@@ -18,6 +18,10 @@ body {
     background: linear-gradient(68.15deg, rgba(47, 35, 37, 1), rgba(142, 93, 82, 1));
 }
 
+#burguer {
+    display: none;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;

@@ -85,3 +85,42 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
         height: 32px;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    /* CELULAR */
+
+    #burguer {
+        display: block;
+        color: #FFF2E7;
+        background-color: #492a2a;
+        width: 100vw;
+        padding: 12px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #burguer:hover {
+        color: rgba(236, 214, 196, 0.53);
+        transition-duration: 0.5s;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .cabecalho-imagem {
+        height: 72px;
+        margin-bottom: 14px;
+    }
+
+    .cabecalho-menu {
+        flex-direction: column;
+    }
+
+    .cabecalho-menu-item {
+        text-align: center;
+    }
+
+}
