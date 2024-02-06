@@ -94,8 +94,9 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
         display: block;
         color: #FFF2E7;
         background-color: #492a2a;
-        width: 100vw;
+        width: 96vw;
         padding: 12px;
+        margin: 0;
         text-align: center;
         cursor: pointer;
     }
@@ -121,6 +122,10 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
 
     .cabecalho-menu-item {
         text-align: center;
+    }
+
+    .conteudo-principal-imagem {
+        width: 80vw;
     }
 
 }
