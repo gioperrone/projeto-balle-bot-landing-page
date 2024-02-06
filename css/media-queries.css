@@ -117,11 +117,17 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
     }
 
     .cabecalho-menu {
+        display: none;
         flex-direction: column;
+        gap: 4px;
     }
 
     .cabecalho-menu-item {
         text-align: center;
+        background-color: #553535;
+        width: 96vw;
+        margin: 0px;
+        padding: 20px;
     }
 
     .conteudo-principal-imagem {
