@@ -93,9 +93,7 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
     #burguer {
         display: block;
         color: #FFF2E7;
-        background-color: #492a2a;
-        width: 96vw;
-        padding: 12px;
+        padding: 20px;
         margin: 0;
         text-align: center;
         cursor: pointer;
@@ -104,6 +102,13 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
     #burguer:hover {
         color: rgba(236, 214, 196, 0.53);
         transition-duration: 0.5s;
+    }
+
+    .cabecalho-mobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50vw;
     }
 
     .cabecalho {
@@ -119,12 +124,12 @@ Typical Device Breakpoints (fonte: w3cschools.com | em JAN/2024)
     .cabecalho-menu {
         display: none;
         flex-direction: column;
-        gap: 4px;
+        gap: 2px;
     }
 
     .cabecalho-menu-item {
         text-align: center;
-        background-color: #553535;
+        background-color: #553535a9;
         width: 96vw;
         margin: 0px;
         padding: 20px;
